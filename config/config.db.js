@@ -6,7 +6,8 @@ const connectionParams = {
     useUnifiedTopology: true
 };
 
-const URI = `mongodb://localhost:27017/anthagalleryapp`;
+// const URI = `mongodb://localhost:27017/anthagalleryapp`;
+const URI = `mongodb://mongo:WPd0WkfWIr2v4Q4qDaJY@containers-us-west-44.railway.app:6411`;
 
 const mongooseConnect = mongoose.connect(
     URI,
